@@ -14,6 +14,10 @@
 		91AB6E9829ADA9E70065C973 /* VoixtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB6E9729ADA9E70065C973 /* VoixtTests.swift */; };
 		91AB6EA229ADA9E70065C973 /* VoixtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB6EA129ADA9E70065C973 /* VoixtUITests.swift */; };
 		91AB6EA429ADA9E70065C973 /* VoixtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB6EA329ADA9E70065C973 /* VoixtUITestsLaunchTests.swift */; };
+		91C2FEFF29B14D9E006CBACC /* TopBarHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C2FEFE29B14D9E006CBACC /* TopBarHomeScreen.swift */; };
+		91C2FF0129B14E0F006CBACC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C2FF0029B14E0F006CBACC /* HomeScreen.swift */; };
+		91C2FF0329B152F7006CBACC /* HomeScreenButtonsArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C2FF0229B152F7006CBACC /* HomeScreenButtonsArea.swift */; };
+		91C2FF0729B15378006CBACC /* HomeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C2FF0629B15378006CBACC /* HomeScreenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		91AB6E9D29ADA9E70065C973 /* VoixtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoixtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AB6EA129ADA9E70065C973 /* VoixtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoixtUITests.swift; sourceTree = "<group>"; };
 		91AB6EA329ADA9E70065C973 /* VoixtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoixtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91C2FEFE29B14D9E006CBACC /* TopBarHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarHomeScreen.swift; sourceTree = "<group>"; };
+		91C2FF0029B14E0F006CBACC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		91C2FF0229B152F7006CBACC /* HomeScreenButtonsArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenButtonsArea.swift; sourceTree = "<group>"; };
+		91C2FF0629B15378006CBACC /* HomeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				91AB6E8829ADA9E60065C973 /* ContentView.swift */,
 				91AB6E8A29ADA9E70065C973 /* Assets.xcassets */,
 				91AB6E8C29ADA9E70065C973 /* Preview Content */,
+				91C2FEFE29B14D9E006CBACC /* TopBarHomeScreen.swift */,
+				91C2FF0029B14E0F006CBACC /* HomeScreen.swift */,
+				91C2FF0229B152F7006CBACC /* HomeScreenButtonsArea.swift */,
+				91C2FF0629B15378006CBACC /* HomeScreenButton.swift */,
 			);
 			path = Voixt;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C2FF0729B15378006CBACC /* HomeScreenButton.swift in Sources */,
+				91C2FEFF29B14D9E006CBACC /* TopBarHomeScreen.swift in Sources */,
 				91AB6E8929ADA9E60065C973 /* ContentView.swift in Sources */,
+				91C2FF0329B152F7006CBACC /* HomeScreenButtonsArea.swift in Sources */,
+				91C2FF0129B14E0F006CBACC /* HomeScreen.swift in Sources */,
 				91AB6E8729ADA9E60065C973 /* VoixtApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
