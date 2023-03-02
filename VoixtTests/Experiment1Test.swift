@@ -1,14 +1,14 @@
 //
-//  VoixtTests.swift
+//  Experiment1.swift
 //  VoixtTests
 //
-//  Created by Phil Carlson on 2/27/23.
+//  Created by Phil Carlson on 2/28/23.
 //
-
-import XCTest
 @testable import Voixt
+import XCTest
 
-final class VoixtTests: XCTestCase {
+final class Experiment1Test: XCTestCase {
+    private var _sut = Experiment1()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -18,16 +18,13 @@ final class VoixtTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() async throws {
+    func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-        
-        try await Task.sleep(nanoseconds: 1_000_000_000)
-        try await VoixtApp()
-        try await Task.sleep(nanoseconds: 1_000_000_000)
+        assert(_sut.doSomething1())
     }
 
     func testPerformanceExample() throws {
